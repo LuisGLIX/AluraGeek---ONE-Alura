@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": "4626",
+      "nombre": "Charizard",
+      "precio": "50",
+      "imagen": "https://i5.walmartimages.com/seo/POKEMON-Deluxe-Feature-Figure-6-Charizard_713914bc-5af6-4ee2-bdd3-da506639dfac.53d04783d9d6b572a79668ce43b3c9e5.jpeg"
+    },
+    {
+      "id": "4d3f",
+      "nombre": "Pikachu",
+      "precio": "60",
+      "imagen": "https://m.media-amazon.com/images/I/711yWFqABHL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "a389",
+      "nombre": "Mew y Mewtwo",
+      "precio": "150",
+      "imagen": "https://cds.pe/wp-content/uploads/2023/12/pokemon-mewtwo-mew.png"
+    },
+    {
+      "id": "f19c",
+      "nombre": "Bulbasaur",
+      "precio": "50",
+      "imagen": "https://www.toysmaster.pe/cdn/shop/files/41178ab7-7ca8-455a-b832-600a4cdad620-PhotoRoom.jpg?v=1701325456"
+    },
+    {
+      "id": "70e9",
+      "nombre": "Squirtle",
+      "precio": "80",
+      "imagen": "https://statuecorp.com/cdn/shop/files/98C03253-774A-4DA6-A0C2-AF07746B0329.webp?v=1702331227"
+    },
+    {
+      "id": "9ee0",
+      "nombre": "Snorlax",
+      "precio": "50",
+      "imagen": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaPE/128413535_01/w=800,h=800,fit=pad"
+    },
+    {
+      "id": "43ce",
+      "nombre": "Jigglypuff",
+      "precio": "30",
+      "imagen": "https://inkagames.pe/wp-content/uploads/2023/12/Jigglypuff-1.jpg"
+    },
+    {
+      "id": "16fe",
+      "nombre": "Eevee",
+      "precio": "50",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_636494-MPE74247571127_012024-O.webp"
+    },
+    {
+      "id": "60c0",
+      "nombre": "Gyarados",
+      "precio": "150",
+      "imagen": "https://oechsle.vteximg.com.br/arquivos/ids/8746252-1000-1000/image-727218fbd80440329c0cecddcf9718e2.jpg?v=637884398058470000"
+    }
+  ]
+}

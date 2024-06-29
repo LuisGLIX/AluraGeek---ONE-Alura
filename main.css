@@ -1,0 +1,267 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.menu header {
+    display: flex;
+    align-items: center;
+    background-color: #5300C8;
+    padding: 20px, 0px, 20px, 0px;
+    width: 100%;
+    height: 96px;
+    justify-content: center;
+}
+
+.menu img {
+    width: 138px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.header__title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+.productos-section {
+    width: 60%;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.title__productos h1 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.card-style {
+    width: 678px;
+    height: 971px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+
+.productos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+/* Estilo de las tarjetas de producto */
+
+
+.card {
+    width: 196px;
+    height: 258px;
+    background-color: #5D04D9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-container--info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    width: 176px;
+    height: 174px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.card-container--info p {
+    font-size: 15px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.card-container--value {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.card-container--value p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: left;
+    flex-grow: 1; /* Permite que el texto ocupe el espacio disponible */
+}
+
+.card-container--value img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+/* Estilo del formulario */
+.form-section {
+    width: 35%;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.formproducto__title {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.formproducto__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formproducto__input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #0000FF;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+}
+
+.formproducto__boton, .formproducto__boton--limpiar {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+/* Estilos específicos para los botones */
+.formproducto__boton {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    margin-right: 10px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.formproducto__boton--limpiar {
+    background-color: #FFFFFF;
+    color: #0000FF;
+    border: 2px solid #0000FF;
+    margin-left: auto;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Colocar los botones en la misma línea */
+.buttons-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Animaciones para los botones */
+.formproducto__boton:hover, .formproducto__boton--limpiar:hover {
+    transform: scale(1.05);
+}
+
+.formproducto__boton:active, .formproducto__boton--limpiar:active {
+    transform: scale(0.95);
+}
+
+/* Quitar el estilo del fieldset */
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo del footer */
+.footer {
+    background-color: #5300C8;
+    padding: auto;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer__rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer__rodape .logo-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px; /* Añade un margen inferior para separar del resto del contenido */
+}
+
+.footer__rodape img {
+    width: 138px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.footer__rodape p:nth-of-type(1) {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer__rodape p:nth-of-type(2), .footer__rodape p:nth-of-type(3) {
+    font-size: 16px;
+    font-family: "IBM Plex Mono";
+    font-weight: 500;
+    margin: 5px 0;
+}
